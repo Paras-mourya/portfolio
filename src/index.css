@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding:0;
+}
+body{
+  height:100vh;
+  background:#161513;
+  color:white;
+  font-family: "Arsenal SC", sans-serif;
+}
+/* global.css */
+
+html.light {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  /* Add other light theme variables as needed */
+}
+
+html.dark {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  /* Add other dark theme variables as needed */
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  /* Apply other global styles using the CSS variables */
+}
+
+
