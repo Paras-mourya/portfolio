@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import pattern from "../../assets/pattern.svg";
-import paras from "../../assets/paras.jpg";
+import photo from "../../assets/photo.jpg";
 import github from "../../assets/github.png";
 import instagram1 from "../../assets/instagram1.png";
 import linkedin from "../../assets/linkedin.png";
@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src={paras} alt="" />
+          <img src={photo} alt="" />
           <div className="about-socialmedia">
             <a
               href="https://github.com/Paras-mourya"

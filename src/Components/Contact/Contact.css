@@ -9,6 +9,15 @@
 .contact-title{
     position:relative;
 }
+.contact {
+    color: var(--text-color) !important;
+  }
+  
+  .contact-left h1, .contact-left p, .contact-details p, .contact-right label, .contact-right input, .contact-right textarea {
+    color: var(--text-color) !important;
+  }
+  
+  
 .contact-title h1{
     padding:0px 30px;
     font-size:100px;
@@ -181,9 +190,5 @@
         margin-top:-80px;
     }
   }
-  .contact-github img{
-    width:60px;
-    padding-left:20px;
-
-  }
+  
  

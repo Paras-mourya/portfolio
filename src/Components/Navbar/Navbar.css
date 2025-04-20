@@ -4,6 +4,9 @@
     justify-content:space-between;
     margin:20px 170px;
 }
+.nav-menu li a{
+    color:var(--text-color);
+}
 .nav-menu{
     display:flex;
     align-items:center;
@@ -32,6 +35,10 @@
 .nav-mob-open{
     display:none;
 }
+.nav-menu{
+    color:var(--text-color);
+  }
+  
 
 @media(max-width:768px){
     .navbar{

@@ -1,12 +1,12 @@
 import React from 'react';
 import './Hero.css';
-import paras from '../../assets/paras.jpg';
+import photo from '../../assets/photo.jpg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 const Hero=()=>{
     return (
         <div>
             <div id='home' className="hero">
-                <img src={paras}  alt="" />
+                <img src={photo}  alt="" />
                 <h1><span>I'm Paras Mourya</span>,FullStack developer</h1>
                 <p>I am also java developer and frontend developer with skills like react.js,next.js,tailwindcss,html.</p>
                 <div className="hero-action">
