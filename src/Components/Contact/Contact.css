@@ -22,7 +22,7 @@
     padding:0px 30px;
     font-size:100px;
     font-weight:800;
-    background: linear-gradient(270deg, #fff 10%, #B415FF 100%);
+    background: linear-gradient(270deg, #48CAE4 1%, #014872 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -45,7 +45,7 @@
 .contact-left h1{
     font-size:80px;
     font-weight:700;
-    background: linear-gradient(270deg, #fff 10%, #B415FF 100%);
+    background: linear-gradient(270deg, #014872 10%, #48CAE4 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -90,7 +90,7 @@
     height:78px;
     padding-left:20px;
     border-radius:4px;
-    background:#32323c;
+    background:grey;
     color:#A0A0A0;
     font-size:25px;
 }
@@ -99,8 +99,8 @@
     border:none;
     padding:25px;
     border-radius:4px;
-    background:#32323c;
-    color:#A0A0A0;
+    background:grey;
+    color:#fff;
     font-size:25px;
 }
 .contact-submit{
@@ -108,7 +108,7 @@
     height:60px;
     font-size:20px;
     border-radius:10px;
-    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background: linear-gradient(270deg, #014872 10%, #48CAE4 100%);
     color:black;
     border:none;
     cursor:pointer;
@@ -116,7 +116,7 @@
 .contact-submit:hover{
     transform:scale(1.15);
     transition:0.3s;
-    background: linear-gradient(270deg, #fff 10%, #B415FF 100%);
+    background: linear-gradient(270deg, #fff 10%, #48CAE4 100%);
     color:black;
 
 

@@ -4,7 +4,7 @@ import pattern from '../../assets/pattern.svg';
 import mail_icon from '../../assets/mail_icon.svg';
 import location_icon from '../../assets/location_icon.svg';
 import call_icon from '../../assets/call_icon.svg';
-import github from '../../assets/github.png';
+
 
 const Contact = () => {
  const [submitted, setSubmitted] = useState(false); // Define state for submission status
@@ -37,7 +37,7 @@ const Contact = () => {
   <div id='contact' className='contact'>
    <div className="contact-title">
     <h1>Get in touch</h1>
-    <img src={pattern} alt="" />
+   
    </div>
    <div className="contact-section">
     <div className="contact-left">

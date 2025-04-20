@@ -11,7 +11,7 @@ const About = () => {
     <div id="about" className="about">
       <div className="about-title">
         <h1>About me</h1>
-        <img src={pattern} className="paras" alt="" />
+        
       </div>
       <div className="about-sections">
         <div className="about-left">
@@ -47,12 +47,12 @@ const About = () => {
               Hey! I'm Paras Mourya, a highly motivated freshser and
               detailed-oriented Java developer with a strong foundation in
               HTML,CSS,Javascript and React.js . My expertise lies in crafting
-              responsive web designs that prioritize user experience
+              responsive web designs that prioritize user experience.
             </p>
             <p>
               {" "}
-              My expertise lies in crafting responsive web designs that
-              prioritize user experience
+              I deliver scalable and efficient solutions that drive results.
+
             </p>
           </div>
           <div className="about-skills">

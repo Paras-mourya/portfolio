@@ -7,7 +7,7 @@ const Services = () => {
     <div id='services' className='services'>
       <div className="services-title">
         <h1>My Services</h1>
-        <img src={pattern} alt="" />
+       
       </div>
       <div className="services-list">
         <div className="service-card">

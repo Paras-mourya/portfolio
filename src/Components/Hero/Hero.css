@@ -24,7 +24,7 @@
     font-weight:600;
 }
 .hero h1 span {
-    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background: linear-gradient(270deg, #014872 10%, #48CAE4 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -47,16 +47,17 @@
 .hero-connect{
     padding:25px 45px;
     border-radius:50px;
-    background: linear-gradient(270deg, #DF8908 -5.09%, #B415FF 100%);
+    background: linear-gradient(270deg, #014872 -5.09%, #48CAE4 100%);
     cursor:pointer;
 }
 .hero-resume{
     padding:25px 45px;
     border-radius:50px;
-    border:2px solid #fff;
+    border:2px solid black;
     cursor:pointer;
     color:white;
     text-decoration: none;
+    color:var(--text-color);
 
 }
 
@@ -64,7 +65,8 @@
     border:2px solid #fff;
 }
 .hero-resume:hover{
-    background: linear-gradient(270deg, #DF8908 -5.09%, #B415FF 100%);
+    background: linear-gradient(270deg, #014872 -5.09%, #48CAE4 100%);
+    border:2px solid #fff;
 }
 a{
     text-decoration:none;

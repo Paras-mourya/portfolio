@@ -27,7 +27,7 @@
   font-size:80px;
   font-weight:600;
   color:white;
-  background: linear-gradient(270deg, #fff 10%, #B415FF 100%);
+  background: linear-gradient(270deg, #48CAE4 1%, #014872 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -62,11 +62,14 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin:20px;
   border:2px solid white;
+  color:var(--text-color);
+  background-color:var(--bg-color);
+
   
 }
 
 .service-card h2 {
-  background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+  background: linear-gradient(270deg, #014872 10%, #48CAE4 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -81,6 +84,7 @@
   margin:20px;
   font-size:30px;
   line-height:42px;
+  color:var(--text-color);
 }
 .service-card:hover{
   transform:scale(1.15);

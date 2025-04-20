@@ -9,7 +9,7 @@ const MyWork = () => {
     <div id='work' className='mywork'>
       <div className="mywork-title">
         <h1>My Latest Work</h1>
-        <img src={pattern} alt="" />
+        
       </div>
       <div className="mywork-container">
         {

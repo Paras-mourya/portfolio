@@ -8,7 +8,9 @@ const Hero=()=>{
             <div id='home' className="hero">
                 <img src={photo}  alt="" />
                 <h1><span>I'm Paras Mourya</span>,FullStack developer</h1>
-                <p>I am also java developer and frontend developer with skills like react.js,next.js,tailwindcss,html.</p>
+                <p>As a Java Full Stack Developer, I leverage expertise in Spring Boot, Hibernate, and JDBC to design and implement robust backend solutions.
+                     I craft seamless user experiences and visually appealing interfaces.
+                     </p>
                 <div className="hero-action">
                     <div className="hero-connect"><AnchorLink className="anchor-link" offset={50} href="#contact">Connect with me</AnchorLink>
                     </div>

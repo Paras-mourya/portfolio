@@ -48,7 +48,7 @@
     padding:0px 30px;
     font-size:80px;
     font-weight:600;
-    background: linear-gradient(270deg, #fff 10%, #B415FF 100%);
+    background: linear-gradient(270deg, #48CAE4 1%, #014872 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -97,7 +97,7 @@
     width:50%;
     height:8px;
     border-radius:50px;
-    background:linear-gradient(267deg,#DA7C25 0.36%,#B923E1 102.06%);
+    background:linear-gradient(267deg,#014872 0.36%,#48CAE4 102.06%);
 }
 .about-skill:hover{
     transform:scale(1.05);
