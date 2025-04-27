@@ -27,8 +27,5 @@ body {
   color: var(--text-color);
   /* Apply other global styles using the CSS variables */
 }
-.nav-menu{
-  color:var(--text-color);
-}
 
 
